@@ -1,0 +1,242 @@
+@media (max-width: 650px) {
+  html {
+    font-size: 40%;
+  }
+  .landing {
+    width: 100%;
+    height: 90vh;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+  .user-stories .user {
+    width: 85vw;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .content-box {
+    width: 90vw;
+  }
+  .section-about {
+    width: 100%;
+  }
+  .section-about-info .img-gal {
+    position: absolute;
+    left: 31%;
+    top: 100%;
+    transform: translateX(-50%);
+  }
+  .landing .text-box .text-primary {
+    letter-spacing: 1.7rem;
+  }
+  .landing .text-box .text-secondary {
+    font-size: 2.2rem;
+  }
+  .landing .text-box .btn-white {
+    padding: 2.8rem 3rem;
+    font-size: 2.2rem;
+  }
+  .landing img {
+    height: 5.5rem;
+  }
+  .section-about {
+    height: 140vh;
+  }
+  .section-about-heading {
+    font-size: 4rem;
+    line-height: 1.4;
+
+  }
+  .section-about-info {
+    display: block;
+    text-align: center;
+  }
+  .section-about-info .img-compo {
+    height: 23rem;
+  }
+  .section-about-info .img-gal {
+    position: relative;
+    display: block;
+    margin-top: 10rem;
+  }
+  .section-about-info .img-1 {
+    left: 6rem;
+  }
+  .section-about-info .img-2 {
+    left: 0rem;
+    top: 5rem;
+  }
+  .section-about-info .img-3 {
+    left: 4rem;
+    top: 12rem;
+  }
+  .section-about-info .text {
+    margin-right: 0;
+    width: 75vw;
+    margin-bottom: 5rem;
+  }
+  .section-about-info .text-h {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  .section-about-info .text-p {
+    font-size: 2.5rem;
+    line-height: 1.8;
+  }
+  .section-features {
+    pointer-events: none;
+    margin: -17rem 0;
+  }
+  .section-features .content {
+    height: 180vh;
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0 100%);
+    padding: 20rem 0;
+  }
+  .section-features .content-box {
+    width: 60%;
+    height: 40vh;
+    margin: 2rem 0;
+  }
+  .section-features .content-box .icon {
+    font-size: 9rem;
+  }
+  .section-features .content-box .head {
+    font-size: 2.7rem;
+  }
+  .section-features .content-box .lead {
+    font-size: 2.2rem;
+  }
+  .section-tours {
+    pointer-events: none;
+    margin-top: -16rem;
+    padding-top: 10rem;
+    height: 270vh;
+  }
+  .section-tours-heading {
+    font-size: 4.5rem;
+  }
+  .section-tours .card-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-tours .card-container {
+    width: 85%;
+    height: 60vh;
+    margin: 5rem 0;
+  }
+  .section-tours .card .front .img-heading {
+    font-size: 3.5rem;
+    top: 13rem;
+  }
+  .section-tours .card .front .img-heading span {
+    top: 5rem;
+  }
+  .section-tours .card .img-detail ul {
+    font-size: 2.5rem;
+  }
+  .section-tours .btn-green {
+    padding: 2rem 3rem;
+    font-size: 2.3rem;
+  }
+  .section-stories {
+    pointer-events: none;
+    height: 200vh;
+  }
+  .section-stories .heading {
+    margin-left: 0;
+    font-size: 4.5rem;
+    line-height: 1.4;
+  }
+  .section-stories .user {
+    height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .section-stories .user-img {
+    height: 30rem;
+  }
+  .section-stories .user-name {
+    opacity: 1;
+    color: black;
+    font-size: 3.8rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid black;
+  }
+  .section-stories .user .lb {
+    display: inline;
+  }
+  .section-stories .user-heading {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+  }
+  .section-stories .user-lead {
+    font-size: 2rem;
+  }
+  .section-stories .user-detail {
+    width: 80%;
+    align-self: flex-end;
+  }
+  .section-stories .u-1 img {
+    transform: translate(-0.3rem, -3.4rem) scale(1.5);
+  }
+  .section-stories .u-2 img {
+    transform: translate(1rem, 15rem) scale(1.8);
+  }
+  .section-stories .all-stories {
+    font-size: 3rem;
+  }
+  .section-book {
+    height: 90vh;
+  }
+  .section-book .form {
+    width: 100%;
+    height: 70vh;
+    background: #eeeeee;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    text-align: center;
+  }
+  .section-book .form .heading {
+    margin-left: 0;
+    font-size: 4.2rem;
+    margin-bottom: 2rem;
+  }
+  .section-book .form .inp {
+    width: 70vw;
+    margin: 8rem 0;
+    margin-left: 3rem;
+    padding: 2.5rem 2rem;
+    font-size: 2rem;
+  }
+  .section-book .booking img {
+    height: 70vh;
+  }
+  .section-book .btn {
+    font-size: 2.3rem;
+  }
+  .footer {
+    height: 70vh;
+  }
+  .footer-detail {
+    margin-top: 40rem;
+  }
+  .footer .copyright {
+    width: 23rem;
+    line-height: 1.8;
+    font-size: 2rem;
+  }
+  .nav ul li {
+    display: block;
+    margin: 2rem;
+    font-size: 2rem;
+  }
+  .logo h2 {
+    top: 30%;
+    font-size: 4rem;
+  }
+  .logo i {
+    font-size: 15rem;
+  }
+}
